@@ -1,0 +1,29 @@
+{
+  "name": "wedding-agency-contacts-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "prettier": "prettier-config-standard",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Schreibmann/wedding-agency-contacts-parser.git"
+  },
+  "author": "Schreibmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Schreibmann/wedding-agency-contacts-parser/issues"
+  },
+  "homepage": "https://github.com/Schreibmann/wedding-agency-contacts-parser#readme",
+  "dependencies": {
+    "puppeteer": "^13.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.6.2",
+    "prettier-config-standard": "^5.0.0"
+  }
+}
