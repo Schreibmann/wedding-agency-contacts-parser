@@ -8,7 +8,7 @@ const main = async () => {
 
     const initPage = async (url) => {
         const pages = await browser.pages();
-        const page = pages[0]; //await browser.newPage();
+        const page = pages[0];
         await page.goto(url);
         return page;
     }
@@ -77,10 +77,7 @@ const main = async () => {
         await page.close();
     }
 
-   
-    
     const hitchedPage = await initPage("https://www.hitched.co.uk/wedding-planner/");
-    
     await processPage(hitchedPage);
 }
 
